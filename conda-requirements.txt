@@ -1,0 +1,4 @@
+boost
+boost-python
+exiv2
+pyexiv2
