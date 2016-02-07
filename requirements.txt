@@ -36,7 +36,6 @@ Pillow==2.9.0
 preggy==1.2.0
 ptyprocess==0.5
 pycrypto==2.6.1
-pycurl==7.19.5.3
 pyflakes==1.0.0
 Pygments==2.1
 pyparsing==2.0.7
