@@ -10,7 +10,7 @@ Set up a production server.
 
 Install Pyexiv2 and the Thumbor dependencies (Without OpenCV):
 
-    apt-get install ffmpeg libjpeg-dev libpng-dev libtiff-dev libjasper-dev libgtk2.0-dev python-numpy python-pycurl webp python-dev python-pip
+    apt-get install ffmpeg libjpeg-dev libpng-dev libtiff-dev libjasper-dev libgtk2.0-dev python-numpy python-pycurl webp python-dev python-pip libcurl4-openssl-dev
     apt-get install python-pyexiv2
     
 On Ubuntu 14.04 ffmpeg is not available. Install [Libav](https://wiki.ubuntuusers.de/Libav/) and 
