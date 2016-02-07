@@ -53,7 +53,7 @@ singledispatch==3.4.0.3
 six==1.10.0
 statsd==3.2.1
 tc-core==0.3.0
-git+http://github.com/sbaechler/thumbor.git@831501939ebd3be538c63fb617a3cdb8d995fa80
+git+http://github.com/sbaechler/thumbor.git@36f2e2ea53092b455d22fa1bab03b7415fcf67cd
 toolz==0.7.4
 tornado==4.3
 traitlets==4.1.0
