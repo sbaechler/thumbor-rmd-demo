@@ -58,7 +58,7 @@ toolz==0.7.4
 tornado==4.3
 traitlets==4.1.0
 Unidecode==0.4.19
-git+http://github.com/sbaechler/thumbor-universalimages.git@56ce1f7a714571ba41827d7adab6d8f01595695c
+git+http://github.com/sbaechler/thumbor-universalimages.git@294dad08b8c6cffec9aed6752cef5af7c2cdb1cd
 urllib3==1.14
 wheel==0.24.0
 yanc==0.3.3
