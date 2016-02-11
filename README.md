@@ -26,7 +26,20 @@ Create a `.env` file in the root directory that contains the following line:
 
     SECURITY_KEY=<your secret key>
     
+Create a file `/etc/nginx/conf.d/thumbor.conf` with the following content:
+    
+    upstream thumbor {
+        server 127.0.0.1:8000;
+    }
+    server {
+        listen 80;
+        server_name <server name, e.g. *.compute-1.amazonaws.com>;
+        location / {
+            proxy_pass http://thumbor;
+        }
+    }
+
 
 Start Thumbor with 
 
-    thumbor -c thumbor.conf -p <port>
+    thumbor -c thumbor.conf -p 8000
