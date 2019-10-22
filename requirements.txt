@@ -32,7 +32,7 @@ path.py==8.1.2
 pexif==0.15
 pexpect==4.0.1
 pickleshare==0.6
-Pillow==2.9.0
+Pillow==6.2.0
 preggy==1.2.0
 ptyprocess==0.5
 pycrypto==2.6.1
